@@ -21,7 +21,7 @@ function setup(){
     bg.addImage(bgImg);
     bg.scale=(2);
 
-    shooter2=createSprite(windowWidth-1100,windowHeight-200,20,20);
+    shooter2=createSprite(100,windowHeight-200,20,20);
     shooter2.addImage(shooter2Img);
     shooter2.scale=(0.4);
 
