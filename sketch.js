@@ -33,8 +33,10 @@ function setup(){
 
 function draw(){
   if(gameState===PLAY){
+      console.log ("IN PLAY");
     if(keyDown("up_arrow")) {
         shooter2.y=shooter2.y-3;
+        console.log ("UP");
       } 
        
         if(keyDown("down_arrow")) {
